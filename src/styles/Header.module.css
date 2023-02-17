@@ -1,0 +1,28 @@
+.header {
+  display: grid;
+  grid-template-columns: 1.25fr 3fr;
+  gap: 1rem;
+}
+
+.header nav {
+  margin-block: auto;
+}
+
+.header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.header a {
+  color: inherit;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    grid-template-columns: auto 1fr;
+  }
+  .header nav ul {
+    gap: 2rem;
+  }
+}
