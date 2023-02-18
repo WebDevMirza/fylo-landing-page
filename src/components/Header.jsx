@@ -9,7 +9,7 @@ const Header = () => {
       <div className="layout">
         <div className={Styles["header"]}>
           <div className="logo">
-            <Image src={Logo} alt="Fylo logo" />
+            <Image src={Logo} alt="Fylo logo" priority />
           </div>
 
           <nav>

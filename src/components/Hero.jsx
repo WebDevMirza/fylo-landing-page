@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="layout">
         <div className={Styles["hero"]}>
           <div className={Styles["hero-img"]}>
-            <Image src={HeroImg} alt="hero img" />
+            <Image src={HeroImg} alt="hero img" priority />
           </div>
           <div className={Styles["hero-body"]}>
             <h1 className="h1">All your files in one secure location, accessible anywhere.</h1>

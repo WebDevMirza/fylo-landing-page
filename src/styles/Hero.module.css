@@ -1,6 +1,7 @@
 .hero {
   display: grid;
   grid-template-columns: 1fr;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -12,6 +13,10 @@
 .hero-body h1 {
   max-width: 25ch;
   margin-inline: auto;
+}
+
+.hero-body p {
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 1024px) {

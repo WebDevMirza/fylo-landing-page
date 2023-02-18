@@ -1,0 +1,20 @@
+.siteHeader {
+  margin-block: 1rem;
+}
+
+.main {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .siteHeader {
+    margin-block: 2.5rem;
+  }
+
+  .main {
+    text-align: left;
+  }
+}

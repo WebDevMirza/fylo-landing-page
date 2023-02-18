@@ -33,7 +33,7 @@ const Info = () => {
                   </div>
                   <div className={Styles["review-profile"]}>
                     <div className={Styles["profile-photo"]}>
-                      <Image src={ProfileImg} />
+                      <Image src={ProfileImg} alt="profile" />
                     </div>
                     <div className={Styles["profile-body"]}>
                       <p className={Styles["name"]}>Kyle Burton</p>
