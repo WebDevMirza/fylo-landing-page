@@ -43,4 +43,8 @@
   .hero-img {
     order: 2;
   }
+
+  .hero-body form {
+    min-height: 70px;
+  }
 }

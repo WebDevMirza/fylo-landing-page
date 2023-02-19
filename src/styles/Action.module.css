@@ -34,6 +34,10 @@
   max-width: 300px;
 }
 
+.action-form p {
+  color: white;
+}
+
 @media (min-width: 1024px) {
   .action {
     grid-template-columns: 1fr 1fr;
@@ -53,7 +57,12 @@
   }
 
   .action-form {
-    min-width: 400px;
+    max-width: 400px;
+    max-height: 100px;
+  }
+
+  .action-form form {
+    gap: 0;
   }
 
   .action-form form {
